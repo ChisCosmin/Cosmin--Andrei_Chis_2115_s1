@@ -1,0 +1,124 @@
+body{
+	padding-bottom:350px;
+}
+#Img
+{
+	
+	position: relative;
+	height: 55%;
+	width: 55%;
+	display: center;
+	border-radius: 50%;
+	
+	right: 50px;
+	
+	
+}
+
+
+
+
+#Nume-Prenume{
+	border-width:5px; 
+	border-style:solid; 
+	border-color:black;
+	color: #D34817 ;
+	background-color: #B89A9A;
+	text-align:left;
+	font-family: verdana;
+	font-weight: 700;
+}
+
+#e-mail{
+	text-align:right;
+	color: yellow;
+	text-decoration:underline;
+}
+
+a{
+	color:yellow;
+}
+
+#Specificatii{
+	text-decoration:underline;
+	text-align: right;
+	color: #B89A9A;
+	
+}
+
+#tabel, td, tr{
+	border: 4px solid orangered;
+	text-align: center;
+	width: 45%;
+	border-collapse: collapse;
+	
+}
+
+#retea{
+	background-color: lightgray;
+	bottom: 200px;
+	top:300px;
+	width: 700px;
+	left:300px;
+     border-color: red;
+	 border-style:solid; 
+
+	padding: 20px;
+	color: #B89A9A;
+	font-size:15px;
+	border-color: brown;
+	margin-bottom: 50px;
+	position: relative;
+	margin-left:100px;
+	margin-right:100px;
+	text-align:left;
+	list-style-type: lower-alpha;
+}
+
+#slider {
+  display: none;
+  position: relative;
+  width: 400px;
+  height: 265px;
+ margin-top: 200px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  left: 600px;
+  top: 200px;
+}
+  #slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+ 
+  float: left;
+}
+#slider ul li img{
+  width: 400px;
+  height: 265px; 
+}
+ .column {
+  float: left;
+  width: 20.66%;
+  padding: 15px;
+  margin:10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin:10px;
+}
+#imagini{
+	display: block;
+}
